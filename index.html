@@ -357,3 +357,13 @@ Edit text directly in the HTML file whenever needed.</textarea></div>
   </script>
 </body>
 </html>
+
+<script>
+fetch('entries.json')
+.then(response => response.json())
+.then(data => {`
+console.log(data);`
+// You can add your logic here to deepak the data on the webpage`
+`});
+</script>
+
